@@ -22,7 +22,8 @@ const Services = () => {
 <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
 
                            <h3>Web Developer</h3>
-                           <p>Your website will be built with extreme personal effort and creativity.</p>
+                           <p>Your website will be built with outstanding effort and creativity,
+                               provided with a personal touch your clients are sure to appreciate.</p>
                         </div>
                     </div>
                     {/* - */}
@@ -30,8 +31,10 @@ const Services = () => {
                         <div className="box">
 <div className="circle"><FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" /></div>
 
-                           <h3>FrontEnd-Specialist</h3>
-                           <p>Feel comfort and ease knowing that your projects are being handled by a professional.</p>
+                           <h3>FrontEnd-Technologies</h3>
+                           <p>JavaScript development & HTML5+/CSS web customization.
+                               Feel comfort and ease knowing that your projects are being handled by a professional.
+                           </p>
                         </div>
                     </div>
                     {/* - */}
@@ -40,8 +43,8 @@ const Services = () => {
 <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x" /></div>
 
                            <h3>Google Priorities</h3>
-                           <p>JavaScript development & HTML5+/CSS web customization. Web applications created by React!
-                            Have your website show as top results during Google searches. </p>
+                           <p> Have your website show up as top results during Google searches for
+                               your potential clients. </p>
                         </div>
                     </div>
                 </div>
