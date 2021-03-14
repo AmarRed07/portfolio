@@ -11,6 +11,7 @@
   --primary-purple: #483D8B;
   --primary-red: #b03ab4;
   --primary-hover-red: #f33501;
+  --primary-black: #000000;
 }
 
 body {
@@ -206,6 +207,7 @@ align-items: center;
   padding-bottom: 00.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-red);
+  transition: 0.4s ease-in-out;
 }
 
 .services .box:hover {
@@ -314,4 +316,55 @@ align-items: center;
     direction: ltr;
     width: 100%;
   }
+}
+
+
+/****************** PORTFOLIO ***********************/
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--primary-purple);
+  height: 8rem;
+  /* padding: 0 0.5rem; */
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+/****************** OVERFLOW BOX ***********************/
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-blue);
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
 }
