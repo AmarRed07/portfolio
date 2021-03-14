@@ -325,6 +325,10 @@ align-items: center;
   padding: 3rem 0;
 }
 
+.portfolio-wrapper h1 {
+  color: var(--primary-purple);
+}
+
 .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-purple);
@@ -368,3 +372,45 @@ align-items: center;
   transition: 0.6s ease-in-out;
   cursor: pointer;
 }
+
+/****************** POPUPBOX ***********************/
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-purple);
+}
+
+.hyper-link:hover {
+  color: var(--primary-red);
+}
+
+/****************** MEDIA ***********************/
+@media(max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media(max-height: 570px) {
+.popupbox-wrapper {
+  height: 100%;
+}
+
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+
+@media(max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  
+    .portfolio-image-popupbox {
+      width: 30%;
+    }
+  }
