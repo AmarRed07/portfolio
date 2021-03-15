@@ -33,16 +33,17 @@ const TestimonialsCarousel = () => {
             <div className="myCarousel">
             <h3>Mindy Kim</h3>
             <p>“Honestly, if we were hiring, I would definitely recommend you. You catch on pretty quick, and 
-                have confidence most Junior Developers don’t. Keep it up!” - Mentor / Work: Senior Developer</p>
+                have confidence most Junior Developers lack. Also, you ask the right questions, which is very important. 
+                You have a knack for this! You'll be just fine.” - Mentor / Work: Senior Software Engineer</p>
                 </div>
             </>
             <>
             <img src={avatar2} alt="Vinny Belvieso 2" />
             <div className="myCarousel">
             <h3>Vinny Belvieso</h3>
-            <p>“Amar, thank you so much. I really did not expect you to get it finished so quick, let alone 
-                make it this wonderful. It feels like I made it myself, I have no idea how you did that! I felt 
-                like you literally took the ideas out of my brain without telling you. Are you a mind reader?” 
+            <p>“Amar thank you so much, I love it!! I didn't expect you to finish the website so quickly, let alone 
+                make it so wonderful. It's excatly how I pictured it! Now I know why you asked me so many questions! 
+                You literally took the ideas out of my brain and made it a reality. Are you a mind reader?” 
                 - Client</p>
                 </div>
             </>
