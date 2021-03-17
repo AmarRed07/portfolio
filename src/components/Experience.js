@@ -41,7 +41,7 @@ const Experience = () => {
                                 earning an Online Certification in
                                 Computuer Hardware Technologies. Began
                                 working for MGM Resorts properties gaining
-                                experience at their Forbs 4-star rated Vdara Hotel & Spa property.
+                                experience at their Forbs rated 4-star Vdara Hotel & Spa property.
                                 This provided me with the necessary tools too
                                 gain outstanding customer service, while learning how to
                                 diffuse diffcult situations. 
@@ -57,8 +57,8 @@ const Experience = () => {
                                 a Bachelor’s Degree in Psychology with a core emphasis in 
                                 clinical psychology. Completed & earned an Online Certification at Codecademy inc. learning
                                 about FrontEnd-Technologies such as HTML5/CSS/Bootstrap for WebDevelopment. Finished my first 
-                                programming project developing a simple Snake game - providing me experience with troubleshooting code,
-                                familiarizing myself with GitHub, contributing to open source code projects amongst the Software Engineering
+                                programming project, which provided me experience with troubleshooting code,
+                                familiarizing myself with GitHub, and contributing to open source code projects amongst the Software Developer/Engineering
                                 community.
                                 </p>
                         </div>
@@ -69,7 +69,7 @@ const Experience = () => {
                         <div className="timeline-content">
                             <h3>2020-2021</h3>
                             <p>Began additonal Software Development courses at Codecademy & Udemy. Shortly after, I completed my first React.js project
-                                creating this Portfolio website. I graduated from Promineo Tech polishing my skills as a Software Developer/Engineer. This
+                                creating this Portfolio website. I also began & graduated from Promineo Tech polishing my skills as a Software Developer/Engineer. This
                                 gave me the ability to learn how to properly utilize DevTools to debug difficult coding issues, while becoming more fluent
                                 with the JavaScript language, HTML5/CSS/Bootstrap&Jquery, and React.js technologies. I am always seeking to
                                 improve my knowledge and skills as a FrontEnd Software Developer.

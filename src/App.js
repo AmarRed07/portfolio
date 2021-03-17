@@ -8,7 +8,7 @@ import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
-// import TestimonialsCarousel from "./components/TestimonialsCarousel";
+import Contacts from "./components/Contacts";
 
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
     <Experience />
     <Portfolio />
     <Testimonials />
-    {/* <TestimonialsCarousel /> */}
+    <Contacts />
     </>
   );
 }

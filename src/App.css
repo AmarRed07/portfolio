@@ -116,7 +116,7 @@ nav ul li {
 /*------------ TYPED MAIN OFFER BUTTON ----------*/
 .btn-main-offer {
    border: 1px solid var(--primary-red);
-   text-transform: uppercase;
+   /* text-transform: uppercase; */
    border-radius: 0;
    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
    color: var(--primary-purple);
@@ -482,3 +482,59 @@ align-items: center;
   margin: auto !important;
   margin-top: 3% !important;
 } */
+
+
+
+  /****************** CONTACTS COMPONENT ***********************/
+  .contacts {
+    background: var(--primary-dark);
+    padding: 3rem 0;
+  }
+
+  .contacts h1 {
+    color: var(--primary-red);
+    padding: 1.3rem 0;
+  }
+
+.contacts p {
+  color: var(--primary-red);
+  font-size: 1.2rem;
+}
+
+
+  /****************** INPUTS ***********************/
+  .contacts input, .contacts textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 0.125rem solid var(--primary-purple);
+    border-radius: 0;
+    color: var(--primary-red);
+    outline: 0 !important;
+    box-shadow: none !important;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+  }
+
+  .contacts .container {
+    padding: 4rem 0;
+  }
+
+  .contacts input:focus, .contacts textarea:focus {
+    background: transparent;
+    color: var(--primary-red);
+    border-bottom: 0.125rem solid var(--primary-purple);
+  }
+
+  .contacts textarea {
+    height: 12.4rem !important;
+  }
+
+  .contact-btn {
+    /* margin: 1rem 0 0 0;
+    width: 100%; */
+    background: var(--primary-red);
+    transition: 0.4s ease-in-out;
+  }
