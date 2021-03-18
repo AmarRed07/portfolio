@@ -74,7 +74,7 @@ nav ul li {
   background: url(land.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -385,6 +385,10 @@ align-items: center;
   cursor: pointer;
 }
 
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+
 /****************** POPUPBOX ***********************/
 .portfolio-image-popupbox {
   width: 45rem;
@@ -586,3 +590,29 @@ align-items: center;
       padding: 0 0.05rem;
     }
   } 
+
+
+
+
+  /****************** FOOTER COMPONENT ***********************/
+  .footer {
+    background: var(--primary-black);
+    color: var(--primary-orange);
+    padding: 3rem;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: var(--primary-orange);
+  }
+
+  .footer a:hover {
+    text-decoration: none;
+    color: var(--primary-dark-grey);
+    cursor: pointer;
+  }
+
+  .footer p {
+    margin-bottom: 0;
+  }
+
