@@ -16,7 +16,7 @@ const Footer = () => {
                             <p>Email:</p>
                         </div>
                         <div className="d-flex">
-                            <p>Amar.Engineer@codewidthme.com</p>
+                            <p>Redzepagicamarr@gmail.com</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">
