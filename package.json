@@ -1,7 +1,7 @@
 {
-    "homepage": "https://amarred07.github.io/portfolio/",
     "name": "reactjs",
     "version": "0.1.0",
+    "homepage": "https://codewidthme.com",
     "private": true,
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.34",
